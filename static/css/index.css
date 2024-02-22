@@ -135,3 +135,37 @@ body {
 
 
 
+.rotate-item {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 设置高度为视口高度，使得内容垂直居中 */
+}
+
+
+.rotate-image {
+    transform: rotate(270deg); /* 旋转90度 */
+    transform-origin: center; /* 旋转中心点 */
+}
+
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 80%; /* 调整宽度以适应布局 */
+  height: auto;
+  margin-right: 10px; /* 添加间距 */
+}
+
+.audio-container {
+  padding: 20px;
+}
+
+.audio-item {
+  text-align: center;
+  padding: 20px;
+}

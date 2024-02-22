@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>DPCRN: An Effective Light-weight Solution for In-car Speech Separation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,21 +52,23 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">DPCRN: An Effective Light-weight Solution for In-car Speech Separation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=K9KpvFYAAAAJ&hl=en" target="_blank">Ziqian Wang</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a  target="_blank">Jiayao Sun</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a target="_blank">Xingchen Li</a>,</span>
                   </span>
+                  <a target="_blank">Lei Xie</a>
+                </span>                  
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science,
+                      Northwestern Polytechnical University, Xi’an, China</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -83,7 +85,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,10 +93,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,7 +104,7 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
@@ -124,12 +126,12 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <!-- <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -137,7 +139,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,8 +150,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+            The rise of deep learning and advancements in voice-activated technologies have propelled the development of intelligent in-car communications. However, the challenge of efficiently eliminating interference and separating speech in a complex, multi-talker in-car environment with resource and time limitations persists, which is crucial for downstream tasks like speech recognition and semantic understanding. This paper presents a lightweight framework incorporating digital signal processing and neural networks, utilizing dual encoders to effectively leverage spatial prior. Our proposed system achieves a unified approach for both streaming and non-streaming scenarios. With 0.83M model parameters and 0.39 real-time factor on Intel Core i7 (2.6GHz) CPU, our proposed framework outperforms robust baseline models across various metrics, achieving effective speech separation in distinct speech zones.          </p>
         </div>
       </div>
     </div>
@@ -165,30 +166,30 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/pipeline.drawio_00.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Overview of the proposed system: Dual-Path Convolutional Recurrent Network (DPCRN).
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/convblock.drawio_00_rotated.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Gated Temporal-Frequency Convolutional Block.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/tfcm.drawio_00_rotated.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          TFCM Block.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <img src="static/images/ftlstm.drawio_00_rotated.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+        Triple-Path Modeling Module.
       </h2>
     </div>
   </div>
@@ -198,60 +199,456 @@
 <!-- End image carousel -->
 
 
-
-
-<!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">Separated speech samples by the proposed DPCRN</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <h3 class="title is-5">Sample1 with only one speaker talking in zone2 -- Easy done😊</h3>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/mix.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/mix/sample2-6/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Mono mixture from 6-ch signals obtained by fixed beamforming from 24-ch distributed mic-array recording</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk1.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk2.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch2.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk3.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch3.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 3</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk4.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch4.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 4</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk5.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch5.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 5</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample2/spk6.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample2-6/ch6.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 6</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+        </div>  
       </div>
     </div>
   </div>
 </section>
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h3 class="title is-5">Sample2 with speakers talking in zone 1, 3, 5 simultaneously -- It's fine🧐</h3>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/mix.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/mix/sample3-135/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Mono mixture from 6-ch signals obtained by fixed beamforming from 24-ch distributed mic-array recording</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk1.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk2.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch2.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk3.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch3.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 3</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk4.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch4.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 4</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk5.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch5.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 5</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample3/spk6.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample3-135/ch6.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 6</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h3 class="title is-5">Sample3 when all speech zones speak simultaneously -- Challenging but ok😎</h3>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/mix.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/mix/sample1-123456/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Mono mixture from 6-ch signals obtained by fixed beamforming from 24-ch distributed mic-array recording</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk1.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch1.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk2.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch2.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk3.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch3.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 3</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk4.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch4.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 4</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk5.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch5.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 5</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+
+          <div class="column is-four-fifths">          
+            <div class="content-container">
+              <div class="image-container">
+                <img src="static/images/sample1/spk6.png" alt="mix">
+              </div>
+              <div class="audio-container">
+                <div class="audio-item">   
+                  <audio controls>
+                      <source src="static/audio/sep/sample1-123456/ch6.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                  </audio>
+                  <p>Seperated speech in zone 6</p>
+                </div>
+              </div>
+            </div>
+          </div>       
+
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- End youtube video -->
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <!-- <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <!-- <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
+            <!-- <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -260,7 +657,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,17 +667,17 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
