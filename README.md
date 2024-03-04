@@ -1,5 +1,5 @@
 # DPCRN Demo Page
-This is a demo page for the paper "DPCRN: An Effective Light-weight Solution for In-car Speech Separation".
+This is a demo page for the paper "DPCRN: A Light-weight Dual-Path Convolutional Recurrent Network for Real-Time In-car Speech Separation".
 
 
 ## Website License
