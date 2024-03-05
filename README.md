@@ -1,5 +1,5 @@
 # DPCRN Demo Page
-This is a demo page for the paper "DPCRN: An Effective Light-weight Solution for In-car Speech Separation".
+This is a demo page for the paper "ZoneSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation".
 
 
 ## Website License
