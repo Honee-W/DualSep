@@ -1,5 +1,5 @@
-# ZoneSep Demo Page
-This is a demo page for the paper "ZoneSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation".
+# DualSep Demo Page
+This is a demo page for the paper "DualSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation".
 
 
 ## Website License

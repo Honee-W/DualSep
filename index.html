@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>ZoneSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation</title>
+  <title>DualSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,10 +52,11 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">ZoneSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation</h1>
+            <h1 class="title is-1 publication-title">DualSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation</h1>
             <div class="is-size-5 publication-authors">
+
               <!-- Paper authors -->
-              <span class="author-block">
+              <!-- <span class="author-block">
                 <a href="https://scholar.google.com/citations?user=K9KpvFYAAAAJ&hl=en" target="_blank">Ziqian Wang</a><sup>1</sup>,</span>
                 <span class="author-block">
                   <a  target="_blank">Jiayao Sun</a><sup>1</sup>,</span>
@@ -72,7 +73,7 @@
                     <span class="author-block"><sup>1</sup> Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science,
                       Northwestern Polytechnical University, Xi’an, China</span>
                       <span class="author-block"><sup>2</sup> Huawei Cloud</span>                      
-                  </div>
+                  </div> -->
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -153,8 +154,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The rise of deep learning and advancements in voice-activated technologies have propelled the development of intelligent in-car communications. However, the challenge of efficiently eliminating interference and separating speech in a complex, multi-talker in-car environment with resource and time limitations persists, which is crucial for downstream tasks like speech recognition and natural language processing. This paper presents a lightweight framework incorporating digital signal processing and neural networks, utilizing dual encoders to effectively leverage spatial prior. Our proposed system achieves a unified approach for both streaming and non-streaming scenarios. With 0.83M model parameters and 0.39 real-time factor on Intel Core i7 (2.6GHz) CPU, our proposed system outperforms robust baseline models across various metrics, achieving effective speech separation in distinct speech zones.        </div>
-      </div>
+            The rise of deep learning and advancements in voice-activated technologies have propelled the development of intelligent human-vehicle interaction. However, this often necessitates distributed microphone arrays to capture comprehensive signals, resulting in excessive channel count, coupled with resource and latency limitations inherent in the in-car environment, how to efficiently separate speech under these constraints is crucial for downstream tasks like speech recognition and understanding. This paper presents a lightweight framework incorporating digital signal processing and neural networks. Beamforming and independent vector analysis (IVA) are employed as preprocessing to reduce computational cost and provide spatial prior. Dual encoders are then utilized to effectively leverage the spatial prior, enabling spatial-spectral fusion. Our proposed system achieves a unified approach for both streaming and non-streaming scenarios. With only 0.83M model parameters and 0.39 real-time factor (RTF) on Intel Core i7 (2.6GHz) CPU, the proposed system demonstrates its superiority across various metrics, achieving effective speech separation in distinct speech zones.      
+          </div>
     </div>
   </div>
 </section>
@@ -170,7 +171,7 @@
         <!-- Your image here -->
         <img src="static/images/pipeline.drawio_00.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Overview of the proposed system: ZoneSep.
+          Overview of the proposed system: DualSep.
         </h2>
       </div>
       <div class="item">
@@ -205,7 +206,7 @@
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Separated speech samples by the proposed ZoneSep</h2>
+      <h2 class="title is-3">Separated speech samples by the proposed DualSep</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h3 class="title is-5">Sample1 with only one speaker talking in zone 6 -- Easy done😊</h3>
