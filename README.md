@@ -1,5 +1,18 @@
 # DualSep Demo Page
-This is a demo page for the paper "DualSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation".
+This is the demo page for the paper "DualSep: A Light-weight Dual-Encoder Convolutional Recurrent Network For Real-Time In-Car Speech Separation". in SLT 2024
+
+How to cite:
+```
+@inproceedings{wang2024dualsep,
+  title={DualSep: A Light-weight dual-encoder convolutional recurrent network for real-time in-car speech separation},
+  author={Wang, Ziqian and Sun, Jiayao and Zhang, Zihan and Li, Xingchen and Liu, Jie and Xie, Lei},
+  booktitle={2024 IEEE Spoken Language Technology Workshop (SLT)},
+  pages={286--293},
+  year={2024},
+  organization={IEEE}
+}
+```
+
 
 
 ## Website License
